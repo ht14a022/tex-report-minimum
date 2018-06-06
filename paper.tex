@@ -1,0 +1,42 @@
+\documentclass[a4j]{jarticle}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{url}
+
+
+\title{
+\vspace{-25mm}
+201x年度 XXXXXXXXXXX\\第 x 回レポート}
+\author{MTxxAxxx XX XX}
+\date{提出日 201x年xx月xx日}
+
+\begin{document}
+\setcounter{page}{1}
+\maketitle
+
+\section{はじめに}
+\label{cha:intro}
+このリポジトリは，各種レポートを容易に \LaTeX\ を用いて執筆するためのテンプレートである．
+
+\subsection{ビルド環境}
+TeXLive \cite{TeXLive} を用いてビルドすることを前提としている．
+
+\subsection{エディタ}
+エディタには，Visual Studio Code \cite{VSCode} に，LatexWorkShop \cite{LaTeX-Workshop} を導入することを推奨する．
+
+\section{リストの使い方}
+\label{cha:list}
+\subsection{番号なしリスト}
+\begin{itemize}
+    \item Item.
+    \item Another Item.
+\end{itemize}
+
+\subsection{番号付きリスト}
+\begin{enumerate}
+    \item First Item.
+    \item Second Item.
+\end{enumerate}
+
+\bibliographystyle{unsrt}
+\bibliography{bib/myrefs}
+\end{document}
