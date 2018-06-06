@@ -1,0 +1,35 @@
+{
+    "latex-workshop.latex.tools": [
+        {
+            "command": "latexmk",
+            "args": [],
+            "name": "Step 1: latexmk"
+        }
+    ],
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "toolchain",
+            "tools": [
+                "Step 1: latexmk"
+            ]
+        }
+    ],
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "*.aux": true,
+        "*.fls": true,
+        "*.lot": true,
+        "__latexindent_temp.pdf": true,
+        "*.gz": true,
+        "*.ps": true,
+        "*.dvi": true,
+        "*.toc": true,
+        "*.blg": true,
+        "*.bbl": true,
+        "*.fdb_latexmk": true,
+        "*.lof": true
+    }
+}
